@@ -11,7 +11,7 @@ namespace SampleWebSite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            txtcolumn.text = "abc";
+            
         }
     }
 }
