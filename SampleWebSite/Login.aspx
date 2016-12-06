@@ -10,8 +10,9 @@
     <form id="form1" runat="server">
     <div>
         <asp:Login ID="Login1" runat="server"></asp:Login>
-    <%--    <asp:PasswordRecovery ID="PasswordRecovery1" runat="server">
-        </asp:PasswordRecovery>--%>
+        <asp:PasswordRecovery ID="PasswordRecovery1" runat="server">
+        </asp:PasswordRecovery>
+        <asp:LoginView ID="LoginView1" runat="server"></asp:LoginView>
     </div>
     </form>
 </body>
